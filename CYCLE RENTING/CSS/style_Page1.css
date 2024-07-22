@@ -57,7 +57,10 @@ nav{
 }
 
 /* Text on main page */
-.cycle{
+
+.header-content{
+    margin-bottom: 350px;
+    text-align: left;
     width: 100vw;
     height: 100vh;
     background-image:url(/photos/bg-3.jpg);
@@ -66,10 +69,6 @@ nav{
     background-size: cover;
     position: relative;
     animation: change 10s infinite;
-}
-.header-content{
-    margin-bottom: 350px;
-    text-align: left;
 
 }
 .header-content h2{
