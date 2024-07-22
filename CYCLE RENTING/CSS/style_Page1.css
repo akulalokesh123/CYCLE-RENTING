@@ -58,20 +58,18 @@ nav{
 
 /* Text on main page */
 header{
-
-    
-    width: 520px;
+    width: 100vw;
+    height: 100vh;
+    background-image:url(/photos/bg-3.jpg);
+    width: 1520px;
     background-position: center;
     background-size: cover;
-    position: absolute;
-    background-position: 50% 50%;
+    position: relative;
     animation: change 10s infinite;
 }
 .header-content{
-    margin-bottom: 350px;
-    text-align: left;
-
-
+     margin-bottom: 350px;
+     text-align: left;
 }
 .header-content h2{
     font-size: 10vmin;
