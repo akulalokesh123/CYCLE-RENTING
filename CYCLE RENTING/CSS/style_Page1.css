@@ -64,7 +64,7 @@ header{
     width: 1520px;
     background-position: center;
     background-size: cover;
-    position: relative;
+    position: absolute;
     animation: change 10s infinite;
 }
 .header-content{
