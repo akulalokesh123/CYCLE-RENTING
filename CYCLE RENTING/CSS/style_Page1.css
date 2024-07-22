@@ -57,18 +57,20 @@ nav{
 }
 
 /* Text on main page */
-
-.header-content{
-    margin-bottom: 350px;
-    text-align: left;
+header{
     width: 100vw;
     height: 100vh;
-    background-image:url(/photos/bg-3.jpg);
+    
     width: 1520px;
     background-position: center;
     background-size: cover;
-    position: absolute;
+    position: relative;
     animation: change 10s infinite;
+}
+.header-content{
+    margin-bottom: 350px;
+    text-align: left;
+
 
 }
 .header-content h2{
